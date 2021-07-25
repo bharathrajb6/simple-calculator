@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calculator</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="calc.css">
+	<script src="calc.js"></script>
+	
+</head>
+<body>
+<table>
+	<tr>
+		<td colspan="4"><input type="text" name="" id="display" readonly></td>
+	</tr>
+	<tr>
+		<td><input type="button" name="" id="a" value="1" onclick="attach('1')"></td>
+		<td><input type="button" name="" id="a" value="2" onclick="attach('2')"></td>
+		<td><input type="button" name="" id="a" value="3" onclick="attach('3')"></td>
+		<td><input type="button" name="" id="b" value="+" onclick="attach('+')"></td>
+	</tr>
+	<tr>
+		<td><input type="button" name="" id="a" value="4" onclick="attach('4')"></td>
+		<td><input type="button" name="" id="a" value="5" onclick="attach('5')"></td>
+		<td><input type="button" name="" id="a" value="6" onclick="attach('6')"></td>
+		<td><input type="button" name="" id="b" value="-" onclick="attach('-')"></td>
+	</tr>
+	<tr>
+		<td><input type="button" name="" id="a" value="7" onclick="attach('7')"></td>
+		<td><input type="button" name="" id="a" value="8" onclick="attach('8')"></td>
+		<td><input type="button" name="" id="a" value="9" onclick="attach('9')"></td>
+		<td><input type="button" name="" id="b" value="x" onclick="attach('*')"></td>
+
+	</tr>
+	<tr>
+		<td><input type="button" name="" id="a" value="0" onclick="attach('0')"></td>
+		<td><input type="button" name="" id="b" value="." onclick="attach('.')"></td>
+		<td><input type="button" name="" id="b" value="=" onclick="answer()"></td>
+		<td><input type="button" name="" id="b" value="/" onclick="attach('/')"></td>
+	</tr>
+	<tr>
+		<td><input type="button" name="" id="c" value="C" onclick="clr()"></td>
+		<td><input type="button" name="" id="b" value="%" onclick="attach('%')"></td>
+	</tr>
+</table>
+</body>
+
+</html>
